@@ -12,6 +12,9 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello world ");
             Calculator.Add(2, 3);
+            int x = 10;
+            double y = x / 4.0;
+            Console.WriteLine(y);
             Console.ReadLine();
         }
     }
