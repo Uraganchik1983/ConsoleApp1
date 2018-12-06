@@ -21,7 +21,6 @@ namespace ConsoleApp1
         public static void Add(int a, int b)
         {
             int summ = a + b;
-
             Console.WriteLine($"Сумма {a} и {b} равна: {summ}");
             Console.WriteLine("hi");
         }
