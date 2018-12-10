@@ -26,6 +26,25 @@ namespace ConsoleApp1
             Console.WriteLine();
             Console.WriteLine("Преобразование типов бывает: расширение, сужение. Пример byte x = (byte)(5+70)");
 
+            Console.WriteLine();
+            Console.WriteLine("Пример использования условных конструкций в С#: ");
+
+            if (x>=y)
+            {
+                Console.WriteLine($"{x} больше или равен чем {y}");
+            }
+            else
+            {
+                Console.WriteLine($"{x} меньше чем {y}");
+            }
+
+            Console.WriteLine("Example тернарный оператор: ");
+            Console.WriteLine("Введите + или -");
+            string ss = Console.ReadLine();
+
+            int rez = ss == "+" ? rez = (x + y) : rez = x - y;
+            Console.WriteLine($" Получим {rez}");
+
             Console.ReadLine();
         }
     }
