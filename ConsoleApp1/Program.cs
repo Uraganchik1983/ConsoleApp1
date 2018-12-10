@@ -45,6 +45,18 @@ namespace ConsoleApp1
             int rez = ss == "+" ? rez = (x + y) : rez = x - y;
             Console.WriteLine($" Получим {rez}");
 
+            Console.WriteLine("Циклы: ");
+            for(int i = 1; i < 10; i++)
+            {
+                Console.WriteLine($"i = {i},  i*i= {i * i}");
+            }
+            int j= 6;
+            while (j>0)
+            {
+                Console.WriteLine($"j= {j}");
+                j--;
+            }
+
             Console.ReadLine();
         }
     }
